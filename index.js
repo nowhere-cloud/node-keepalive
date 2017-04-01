@@ -28,5 +28,5 @@ const http_health = (hostname, port, path) => {
 
 
 const timer = setInterval(() => {
-  hlp_health.http('xen-rest', 4567, '/vbd/');
+  http_health('xen-rest', 4567, '/vbd/');
 }, 1 * 60 * 60 * 1000);
